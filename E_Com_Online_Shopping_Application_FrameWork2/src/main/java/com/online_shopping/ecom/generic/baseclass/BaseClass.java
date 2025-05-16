@@ -1,6 +1,8 @@
 package com.online_shopping.ecom.generic.baseclass;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -60,8 +62,15 @@ public class BaseClass {
 		System.out.println("Launch Browser");
 		String BROWSER = fLib.getDataFromPropertyFile("browser");
 		if (BROWSER.equals("chrome")) {
+//			ChromeOptions options = new ChromeOptions();
+//			options.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
+			
 			ChromeOptions options = new ChromeOptions();
-			options.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
+
+	        // Disable notifications
+	        Map<String, Object> prefs = new HashMap<>();
+	        prefs.put("profile.default_content_setting_values.notifications", 2);
+	        options.setExperimentalOption("prefs", prefs);
 			driver = new ChromeDriver(options);
 		} else if (BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();

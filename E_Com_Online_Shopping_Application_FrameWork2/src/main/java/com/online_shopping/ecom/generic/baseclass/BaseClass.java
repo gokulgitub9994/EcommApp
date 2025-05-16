@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterClass;
@@ -66,7 +67,15 @@ public class BaseClass {
 		} else if (BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("edge")) {
-			driver = new EdgeDriver();
+			System.setProperty("webdriver.edge.driver", "path/to/msedgedriver.exe");
+
+	        // Configure Edge to run in headless mode
+	        EdgeOptions options = new EdgeOptions();
+	        options.addArguments("--headless=new"); // For Chromium-based headless support
+	        options.addArguments("--disable-gpu");
+	        options.addArguments("--no-sandbox");
+	        options.addArguments("--remote-allow-origins=*");
+			driver = new EdgeDriver(options);
 		} else {
 			driver = new ChromeDriver();
 		}

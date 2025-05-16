@@ -5,13 +5,25 @@
     <classes>
       <class name="Online_Shopping_Test">
         <methods>
+          <include name="updateUserName"/>
           <include name="configAfterSuite"/>
-          <include name="configBeforeClass"/>
-          <include name="configAfterMethod"/>
           <include name="configAfterClass"/>
+          <include name="addShippingAddrs"/>
+          <include name="removeProductFromCart"/>
+          <include name="searchForProduct"/>
+          <include name="decreaseQtyOfPrdctInCart"/>
+          <include name="chckOutPrdctFrmCartAddFrmWishList"/>
+          <include name="configBeforeClass"/>
+          <include name="viewOrderHistory"/>
+          <include name="removePrdctFrmWishlist"/>
+          <include name="configAfterMethod"/>
           <include name="configBeforeMethod"/>
+          <include name="addBillingAddrs"/>
           <include name="configBeforeSuite"/>
           <include name="addProductToCartTest"/>
+          <include name="trackOrderUsingOrderId"/>
+          <include name="increaseQtyOfPrdctInCart"/>
+          <include name="addProductToWishList"/>
         </methods>
       </class> <!-- Online_Shopping_Test -->
     </classes>

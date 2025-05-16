@@ -67,11 +67,11 @@ public class BaseClass {
 		} else if (BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("edge")) {
-			System.setProperty("webdriver.edge.driver", "path/to/msedgedriver.exe");
+			System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedgedriver.exe");
 
 	        // Configure Edge to run in headless mode
 	        EdgeOptions options = new EdgeOptions();
-	        options.addArguments("--headless=new"); // For Chromium-based headless support
+	        options.addArguments("--headless=new"); 
 	        options.addArguments("--disable-gpu");
 	        options.addArguments("--no-sandbox");
 	        options.addArguments("--remote-allow-origins=*");

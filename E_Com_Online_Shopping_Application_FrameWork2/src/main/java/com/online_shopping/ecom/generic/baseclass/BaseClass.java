@@ -1,5 +1,6 @@
 package com.online_shopping.ecom.generic.baseclass;
 
+
 import java.util.Arrays;
 
 import org.openqa.selenium.WebDriver;
@@ -67,8 +68,6 @@ public class BaseClass {
 		} else if (BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("edge")) {
-			System.setProperty("webdriver.edge.driver", "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedgedriver.exe");
-
 	        // Configure Edge to run in headless mode
 	        EdgeOptions options = new EdgeOptions();
 	        options.addArguments("--headless=new"); 
@@ -76,6 +75,7 @@ public class BaseClass {
 	        options.addArguments("--no-sandbox");
 	        options.addArguments("--remote-allow-origins=*");
 			driver = new EdgeDriver(options);
+			
 		} else {
 			driver = new ChromeDriver();
 		}

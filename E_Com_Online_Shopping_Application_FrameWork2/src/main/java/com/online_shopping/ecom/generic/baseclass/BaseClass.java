@@ -67,11 +67,8 @@ public class BaseClass {
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("edge")) {
 			EdgeOptions options = new EdgeOptions();
-			options.addArguments("--headless"); // Run in headless mode
-			options.addArguments("--disable-gpu");
-			options.addArguments("--no-sandbox");
-			options.addArguments("--disable-dev-shm-usage");
-			options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+			options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
+
 			driver = new EdgeDriver(options);
 
 		} else {

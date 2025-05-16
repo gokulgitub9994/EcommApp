@@ -1,6 +1,5 @@
 package com.online_shopping.ecom.generic.baseclass;
 
-
 import java.util.Arrays;
 
 import org.openqa.selenium.WebDriver;
@@ -32,14 +31,13 @@ import com.online_shopping.ecomm.generic.webdriverutility.WebDriverUtility;
 public class BaseClass {
 
 	public WebDriver driver = null;
-	public static WebDriver sDriver =null;
+	public static WebDriver sDriver = null;
 	public FileUtility fLib = new FileUtility();
 	public ExcelUtility eLib = new ExcelUtility();
 	public WebDriverUtility wLib = new WebDriverUtility();
 	public JavaUtility jLib = new JavaUtility();
 	public DataBaseUtility dLib = new DataBaseUtility();
 	public ExtentReports report;
-	
 
 	@BeforeSuite
 	public void configBeforeSuite() {
@@ -48,11 +46,11 @@ public class BaseClass {
 		spark.config().setDocumentTitle("CRM SUITE RESULTS");
 		spark.config().setReportName("CRM-Report");
 		spark.config().setTheme(Theme.DARK);
-		
+
 		report = new ExtentReports();
 		report.attachReporter(spark);
-		report.setSystemInfo("OS","Windows-10");
-		report.setSystemInfo("Browser","Chrome-10");
+		report.setSystemInfo("OS", "Windows-10");
+		report.setSystemInfo("Browser", "Chrome-10");
 		// dLib.getDbConnection("null", null,null);
 
 	}
@@ -63,18 +61,24 @@ public class BaseClass {
 		String BROWSER = fLib.getDataFromPropertyFile("browser");
 		if (BROWSER.equals("chrome")) {
 			ChromeOptions options = new ChromeOptions();
-			options.setExperimentalOption("excludeSwitches",Arrays.asList("disable-popup-blocking"));
+			options.setExperimentalOption("excludeSwitches", Arrays.asList("disable-popup-blocking"));
 			driver = new ChromeDriver(options);
 		} else if (BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("edge")) {
-			driver = new EdgeDriver();
-			
+			EdgeOptions options = new EdgeOptions();
+			options.addArguments("--headless"); // Run in headless mode
+			options.addArguments("--disable-gpu");
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+			driver = new EdgeDriver(options);
+
 		} else {
 			driver = new ChromeDriver();
 		}
-		
-		sDriver=driver;
+
+		sDriver = driver;
 
 		driver.manage().window().maximize();
 		wLib.waitForPageToLoad(driver);
@@ -94,7 +98,7 @@ public class BaseClass {
 		lp.loginToApp(MAILID, PASSWORD);
 //		Thread.sleep(3000);
 //		wLib.switchToAlertAndAccept(driver);
-		//driver.switchTo().alert().dismiss();
+		// driver.switchTo().alert().dismiss();
 		System.out.println("Login to App");
 	}
 

@@ -66,10 +66,8 @@ public class BaseClass {
 		} else if (BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (BROWSER.equals("edge")) {
-			EdgeOptions options = new EdgeOptions();
-			options.addArguments("--headless", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage");
-
-			driver = new EdgeDriver(options);
+		
+			driver = new EdgeDriver();
 
 		} else {
 			driver = new ChromeDriver();

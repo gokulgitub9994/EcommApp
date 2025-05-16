@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="13" passed="0" failed="0" skipped="13">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-16T17:30:32 IST" name="Default suite" finished-at="2025-05-16T17:30:52 IST" duration-ms="19533">
+  <suite started-at="2025-05-16T17:36:15 IST" name="Default suite" finished-at="2025-05-16T17:36:24 IST" duration-ms="8250">
     <groups>
     </groups>
-    <test started-at="2025-05-16T17:30:32 IST" name="Default test" finished-at="2025-05-16T17:30:52 IST" duration-ms="19533">
+    <test started-at="2025-05-16T17:36:15 IST" name="Default test" finished-at="2025-05-16T17:36:24 IST" duration-ms="8250">
       <class name="Online_Shopping_Test">
-        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:32 IST" name="configBeforeSuite" finished-at="2025-05-16T17:30:32 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="configBeforeSuite()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:15 IST" name="configBeforeSuite" finished-at="2025-05-16T17:36:15 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuite -->
-        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:32 IST" name="configBeforeClass" finished-at="2025-05-16T17:30:39 IST" duration-ms="6436" status="PASS">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:15 IST" name="configBeforeClass" finished-at="2025-05-16T17:36:20 IST" duration-ms="4662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:39 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="12435" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:20 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="3143" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -45,19 +45,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -90,29 +89,29 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="addBillingAddrs()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="addBillingAddrs" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="addBillingAddrs()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="addBillingAddrs" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -124,19 +123,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -169,37 +167,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addBillingAddrs -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="addProductToCartTest()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="addProductToCartTest" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="addProductToCartTest()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="addProductToCartTest" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -211,19 +209,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -256,37 +253,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCartTest -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="addProductToWishList()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="addProductToWishList" finished-at="2025-05-16T17:30:51 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="addProductToWishList()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="addProductToWishList" finished-at="2025-05-16T17:36:23 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -298,19 +295,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -343,37 +339,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToWishList -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="addShippingAddrs()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="addShippingAddrs" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="addShippingAddrs()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="addShippingAddrs" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -385,19 +381,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -430,37 +425,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addShippingAddrs -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="chckOutPrdctFrmCartAddFrmWishList()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="chckOutPrdctFrmCartAddFrmWishList" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="chckOutPrdctFrmCartAddFrmWishList()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="chckOutPrdctFrmCartAddFrmWishList" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -472,19 +467,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -517,37 +511,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chckOutPrdctFrmCartAddFrmWishList -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:51 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:51 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="decreaseQtyOfPrdctInCart()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="decreaseQtyOfPrdctInCart" finished-at="2025-05-16T17:30:52 IST" duration-ms="7" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="decreaseQtyOfPrdctInCart()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="decreaseQtyOfPrdctInCart" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -559,19 +553,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -604,37 +597,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- decreaseQtyOfPrdctInCart -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="increaseQtyOfPrdctInCart()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="increaseQtyOfPrdctInCart" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="increaseQtyOfPrdctInCart()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="increaseQtyOfPrdctInCart" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -646,19 +639,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -691,37 +683,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- increaseQtyOfPrdctInCart -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="removePrdctFrmWishlist()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="removePrdctFrmWishlist" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="removePrdctFrmWishlist()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="removePrdctFrmWishlist" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -733,19 +725,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -778,37 +769,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removePrdctFrmWishlist -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="removeProductFromCart()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="removeProductFromCart" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="removeProductFromCart()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:23 IST" name="removeProductFromCart" finished-at="2025-05-16T17:36:23 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -820,19 +811,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -865,37 +855,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeProductFromCart -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="searchForProduct()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="searchForProduct" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="searchForProduct()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="searchForProduct" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -907,19 +897,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -952,37 +941,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForProduct -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="trackOrderUsingOrderId()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="trackOrderUsingOrderId" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="trackOrderUsingOrderId()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="trackOrderUsingOrderId" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -994,19 +983,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1039,37 +1027,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trackOrderUsingOrderId -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="updateUserName()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="updateUserName" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="updateUserName()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="updateUserName" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1081,19 +1069,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1126,37 +1113,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateUserName -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configBeforeMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configBeforeMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configBeforeMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMethod -->
-        <test-method signature="viewOrderHistory()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="viewOrderHistory" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="viewOrderHistory()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="viewOrderHistory" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
             <message>
-              <![CDATA[Browsing context has been discarded
+              <![CDATA[WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514]]>
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active
 Build info: version: '4.12.0', revision: '249f2a7d1b*'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [8a060d9a-4d90-496f-86f6-ccacbee41514, findElements {using=id, value=exampleInputEmail1}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9492, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 8a060d9a-4d90-496f-86f6-ccacbee41514
+Command: [286872cf-797b-4472-b4e6-00e12cb4b9ee, findElements {using=link text, value=Login}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.3, moz:accessibilityChecks: false, moz:buildID: 20250512124033, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 14404, moz:profile: C:\Users\T470\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 286872cf-797b-4472-b4e6-00e12cb4b9ee
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -1168,19 +1155,18 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(Driver
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:182)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:110)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:103)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)
 at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:366)
 at org.openqa.selenium.support.pagefactory.ByAll.findElement(ByAll.java:52)
 at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:81)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy23.sendKeys(Unknown Source)
-at com.online_shopping.ecomm.generic.objectrepository.LoginPage.loginToApp(LoginPage.java:42)
-at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.online_shopping.ecom.generic.baseclass.BaseClass.configBeforeMethod(BaseClass.java:89)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1213,19 +1199,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- viewOrderHistory -->
-        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterMethod" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterMethod()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configAfterMethod" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMethod -->
-        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterClass" finished-at="2025-05-16T17:30:52 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configAfterClass" finished-at="2025-05-16T17:36:24 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterClass -->
-        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:30:52 IST" name="configAfterSuite" finished-at="2025-05-16T17:30:53 IST" duration-ms="557" status="PASS">
+        <test-method is-config="true" signature="configAfterSuite()[pri:0, instance:Online_Shopping_Test@3c0be339]" started-at="2025-05-16T17:36:24 IST" name="configAfterSuite" finished-at="2025-05-16T17:36:24 IST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterSuite -->
